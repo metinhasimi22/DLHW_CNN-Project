@@ -1,27 +1,31 @@
-# DLHW_CNN-Project
-bu repository benim DLHW_CNN odevimi çermektedir   
+# 📊 DLHW_CNN-Project
 
-# Introduction - Tanıtım
-bu proje kapsamında 4 farklı veri seti kullanarak  CNN ,VGG16 gibi Derin ogrenme teknikleri ile projleri çözmek sonra iyi bir başarı oranı ile modellerimi kaydedip , kayıt edilen modelleri  streamlit yardımı ile Hugifaceye yüklemek (kaynak:https://huggingface.co/Metinhsimi/activity/spaces )  ve test etmek .
+#  ✨  Introduction - (Tanım)
+bu proje kapsamında 4 farklı veri seti kullanarak  CNN ,VGG16 gibi Derin ogrenme teknikleri ile projleri çözmek sonra iyi bir başarı oranı ile modellerimi kaydedip , kayıt edilen modelleri  streamlit yardımı ile Hugifaceye yüklemek ([Kaynak](https://huggingface.co/Metinhsimi/activity/spaces)  ve test etmek .
 amacımız Derin ogrenme ile classification yaparak görsel verileri işleyerek ayırt etme ve bunları ihtiyaca yönelik uygulamalarda kulanabilme .
 
-# Analysis
+#🔍 Analysis - (Analiz)
 Her bir veri seti üzerinde, verilerin yapısı, sınıf dağılımı ve veri setinin genel özellikleri incelenmiştir.
 
-## Date Fruit Classification
+## 🍇 Date Fruit Classification (Hurma)
 - Veri Seti: Hurma türlerinin görsellerini içeren bu veri seti, 9 sınıfa ayrılmıştır.
 - Görselleştirme: Veri setinde her sınıfa ait örnek görüntüler ve sınıf dağılımları incelenmiştir.
-## Leaf Disease Detection
+- [Kaynak!](https://www.kaggle.com/datasets/wadhasnalhamdan/date-fruit-image-dataset-in-controlled-environment?select=Sokari)
+## 🍃 Leaf Disease Detection - (Üzüm Yaprağı Hastalıkları)
 - Veri Seti: Yaprak hastalıklarını sınıflandırmak için kullanılan bu veri seti 4 sınıfa ayrılmıştır.
 - Görselleştirme: Hastalıklı ve sağlıklı yaprak görüntüleri, sınıf dağılımı analiz edilmiştir.
-## Rice Classification
+- [Kaynak!](https://www.kaggle.com/datasets/rm1000/augmented-grape-disease-detection-dataset)
+## 🌾 Rice Classification - (Pirinç)
 - Veri Seti: Pirinç türlerini sınıflandıran bu veri seti, çeşitli pirinç türlerinin görsellerini içermektedir.
 - Görselleştirme: Veri setindeki örnek görüntüler ve sınıfların dengesi görselleştirilmiştir.
-## Flower Classification
+- [Kaynak!](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
+
+## 🌸 Flower Classification - (Çiçek)
 - Veri Seti: Çiçek türlerini sınıflandırmak amacıyla kullanılan bu veri seti, birden fazla çiçek türü içermektedir.
 - Görselleştirme: Veri seti üzerinde sınıf dağılımları ve örnek görüntüler incelenmiştir.
+- [Kaynak!](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)
 
-# Methods
+# 🛠️ Methods - (Yöntemler)
 ### Her bir veri seti için ayrı bir Convolutional Neural Network (CNN) modeli geliştirilmiştir. Modellerin mimarisi genel hatlarıyla aşağıdaki gibidir:
 
 - Girdi Katmanı: 32x32 piksel boyutunda görüntülerin girişi sağlanmıştır.
@@ -39,9 +43,9 @@ Her bir veri seti üzerinde, verilerin yapısı, sınıf dağılımı ve veri se
 - Optimizasyon Algoritması: Adam
 
 
-# Results
+📈 Results - (Sonuçlar)
 - Her bir veri seti için oluşturulan modellerin eğitim ve test sonuçları aşağıda     sunulmaktadır:  her model için ortalama en yüksek değerler alınmaktadır       
   bazılarını   99 arasında  90  tutarak sonuçlanmıştur 
 
-# Reflection
+💡 Reflection - (Değerlendirme)
 - Bu proje sırasında, farklı veri setleri üzerinde CNN modellerinin nasıl uygulanabileceği ve performanslarının nasıl optimize edilebileceği öğrenilmiştir. Sınıf dengesizliği olan veri setlerinde modelin performansını artırmak için veri artırma teknikleri kullanılabilir. Gelecekte, daha büyük veri setleri ve daha karmaşık model mimarileri kullanarak sonuçları geliştirmeyi planlıyorum. Ayrıca, transfer öğrenme gibi teknikleri de kullanarak modellerin performansını daha ileriye taşımak mümkündür.
