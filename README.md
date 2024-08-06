@@ -1,10 +1,10 @@
-# 📊 DLHW_CNN-Project
+# 📊 DLHW_CNN-Project    
 
 #  ✨  Introduction - (Tanım)
 bu proje kapsamında 4 farklı veri seti kullanarak  CNN ,VGG16 gibi Derin ogrenme teknikleri ile projleri çözmek sonra iyi bir başarı oranı ile modellerimi kaydedip , kayıt edilen modelleri  streamlit yardımı ile Hugifaceye yüklemek ([Kaynak](https://huggingface.co/Metinhsimi/activity/spaces)  ve test etmek .
 amacımız Derin ogrenme ile classification yaparak görsel verileri işleyerek ayırt etme ve bunları ihtiyaca yönelik uygulamalarda kulanabilme .
 
-#🔍 Analysis - (Analiz)
+# 🔍 Analysis - (Analiz)
 Her bir veri seti üzerinde, verilerin yapısı, sınıf dağılımı ve veri setinin genel özellikleri incelenmiştir.
 
 ## 🍇 Date Fruit Classification (Hurma)
@@ -43,9 +43,10 @@ Her bir veri seti üzerinde, verilerin yapısı, sınıf dağılımı ve veri se
 - Optimizasyon Algoritması: Adam
 
 
-📈 Results - (Sonuçlar)
+# 📈 Results - (Sonuçlar)
 - Her bir veri seti için oluşturulan modellerin eğitim ve test sonuçları aşağıda     sunulmaktadır:  her model için ortalama en yüksek değerler alınmaktadır       
-  bazılarını   99 arasında  90  tutarak sonuçlanmıştur 
+  bazılarını   99 arasında  90  tutarak sonuçlanmıştur
+# Projenin Sonuçları HuggingFace:[Kanağı](https://huggingface.co/Metinhsimi/activity/spaces)
 
-💡 Reflection - (Değerlendirme)
+# 💡 Reflection - (Değerlendirme)
 - Bu proje sırasında, farklı veri setleri üzerinde CNN modellerinin nasıl uygulanabileceği ve performanslarının nasıl optimize edilebileceği öğrenilmiştir. Sınıf dengesizliği olan veri setlerinde modelin performansını artırmak için veri artırma teknikleri kullanılabilir. Gelecekte, daha büyük veri setleri ve daha karmaşık model mimarileri kullanarak sonuçları geliştirmeyi planlıyorum. Ayrıca, transfer öğrenme gibi teknikleri de kullanarak modellerin performansını daha ileriye taşımak mümkündür.
