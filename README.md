@@ -7,6 +7,12 @@ amacımız Derin ogrenme ile classification yaparak görsel verileri işleyerek 
 # 🔍 Analysis - (Analiz)
 Her bir veri seti üzerinde, verilerin yapısı, sınıf dağılımı ve veri setinin genel özellikleri incelenmiştir.
 
+## 🌸 Flower Classification - (Çiçek)
+- Veri Seti: Çiçek türlerini sınıflandırmak amacıyla kullanılan bu veri seti, birden fazla çiçek türü içermektedir.
+- Görselleştirme: Veri seti üzerinde sınıf dağılımları ve örnek görüntüler incelenmiştir.
+- [Kaynak!](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)
+- ![Ekran görüntüsü 2024-08-07 203628](https://github.com/user-attachments/assets/f25d3776-11ca-440b-b384-5ab85ca78566)
+
 ## 🍇 Date Fruit Classification (Hurma)
 - Veri Seti: Hurma türlerinin görsellerini içeren bu veri seti, 9 sınıfa ayrılmıştır.
 - Görselleştirme: Veri setinde her sınıfa ait örnek görüntüler ve sınıf dağılımları incelenmiştir.
@@ -20,10 +26,7 @@ Her bir veri seti üzerinde, verilerin yapısı, sınıf dağılımı ve veri se
 - Görselleştirme: Veri setindeki örnek görüntüler ve sınıfların dengesi görselleştirilmiştir.
 - [Kaynak!](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
 
-## 🌸 Flower Classification - (Çiçek)
-- Veri Seti: Çiçek türlerini sınıflandırmak amacıyla kullanılan bu veri seti, birden fazla çiçek türü içermektedir.
-- Görselleştirme: Veri seti üzerinde sınıf dağılımları ve örnek görüntüler incelenmiştir.
-- [Kaynak!](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition)
+
 
 # 🛠️ Methods - (Yöntemler)
 ### Her bir veri seti için ayrı bir Convolutional Neural Network (CNN) modeli geliştirilmiştir. Modellerin mimarisi genel hatlarıyla aşağıdaki gibidir:
